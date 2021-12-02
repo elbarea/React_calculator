@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(168, 168, 168);
+  --main-button-color: rgb(30, 60, 120);
+  --alternative-button-color: rgb(182, 48, 38);
+}
+
+.calculator {
+  background-color: #fff;
+  border: solid;
+  padding: 1rem;
+  border-radius: 15px;
+}

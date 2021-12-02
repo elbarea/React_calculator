@@ -1,0 +1,36 @@
+.pad {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  background-color: #fff;
+  color: #444;
+}
+
+.button {
+  background-color: var(--main-button-color);
+  background-color: opacity(1);
+  color: #fff;
+  border: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  margin: 4px;
+  padding: 15px;
+  font-size: 150%;
+  transition-duration: 0.2s;
+}
+
+.button#Clear {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.button:hover {
+  opacity: 0.5;
+  padding: 6px;
+  padding-top: 12px;
+  font-size: 200%;
+}
+
+.button:active {
+  opacity: 1;
+  filter: hue-rotate(-60deg);
+}

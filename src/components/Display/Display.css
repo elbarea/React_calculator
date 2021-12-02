@@ -1,0 +1,24 @@
+.display {
+  text-align: end;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  height: 140px;
+  background-color: rgb(221, 210, 210);
+}
+.results {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+.operations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.defaultText {
+  display: inline-block;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 20px;
+}
